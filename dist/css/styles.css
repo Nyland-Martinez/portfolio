@@ -1766,7 +1766,6 @@ progress {
 .table > thead {
   vertical-align: bottom;
 }
-
 .table-group-divider {
   border-top: 2px solid currentcolor;
 }
@@ -2844,20 +2843,23 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #1D809F;
-  --bs-btn-border-color: #1D809F;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #196d87;
-  --bs-btn-hover-border-color: #17667f;
-  --bs-btn-focus-shadow-rgb: 63, 147, 173;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #17667f;
-  --bs-btn-active-border-color: #166077;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #1D809F;
-  --bs-btn-disabled-border-color: #1D809F;
+  --bs-btn-color: #fff; 
+  --bs-btn-bg: #6b1d9f; 
+  --bs-btn-border-color: #651d9f; 
+  
+  --bs-btn-hover-color: #fff; /* Color del texto en hover */
+  --bs-btn-hover-bg: #17667f; /* Color de fondo en hover */
+  --bs-btn-hover-border-color: #17667f; /* Color del borde en hover */
+  
+  --bs-btn-focus-shadow-rgb: 63, 147, 173; /* Sombra al enfocar */
+  
+  --bs-btn-active-color: #fff; /* Color del texto en estado activo */
+  --bs-btn-active-bg: #19066b; /* Color de fondo en estado activo */
+  --bs-btn-active-border-color: #162577; /* Color del borde en estado activo */
+  
+  --bs-btn-disabled-color: #fff; /* Color del texto deshabilitado */
+  --bs-btn-disabled-bg: #1D809F; /* Color de fondo deshabilitado */
+  --bs-btn-disabled-border-color: #1D809F; /* Color del borde deshabilitado */
 }
 
 .btn-secondary {
